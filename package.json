@@ -1,0 +1,25 @@
+{
+  "name": "galeria_pokemon",
+  "version": "1.0.0",
+  "description": "Este es un proyecto en el cual consumimos la API de Pokémon , y nos traemos solo las imágenes de los Pokemones . Estas imágenes serán optimizadas mediante lazy loading",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edex-13/galeria_pokemon.git"
+  },
+  "keywords": [
+    "Api",
+    "JavaScript",
+    "DOM",
+    "lazy loading"
+  ],
+  "author": "Ederson Felipe Lopez Bolivar <ederson12f@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edex-13/galeria_pokemon/issues"
+  },
+  "homepage": "https://github.com/edex-13/galeria_pokemon#readme"
+}
