@@ -20,9 +20,11 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   margin: 40px 20px;
 }
 .details__title {
    font-size: 25px;
+   text-align: center;
 }
 .details__more {
    margin: 30px 0px 40px;
@@ -44,4 +46,16 @@
 }
 button:active {
    border: 3px solid #000;
+}
+
+.Crad__imagePokemon {
+   margin: 40px;
+}
+.imagePokemon {
+   width: 320px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 2%;
+   background-color: #e4e4e4;;
 }
