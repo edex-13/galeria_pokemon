@@ -5,10 +5,13 @@ const observer = new IntersectionObserver((entries) => {
 
 const isIntersecting  = (image) => image.isIntersecting;
 const loadImage = (entry) => {
-   const nodo = entry.target;
-   console.log('Imagen lista para cargar');
+   const image = entry.target;
+   console.log('Imagen lista para cargar' , image);
+   const routeImage = image.dataset.src;
+   image.src = routeImage;
+   image.classList.add('load')
    //Dejar de observar dicha imagen luego de que ya fue creada
-   observer.unobserve(nodo);
+   observer.unobserve(image);
 };
 
 export const registerImage = (image) => {
