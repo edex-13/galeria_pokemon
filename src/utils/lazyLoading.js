@@ -6,7 +6,6 @@ const observer = new IntersectionObserver((entries) => {
 const isIntersecting  = (image) => image.isIntersecting;
 const loadImage = (entry) => {
    const image = entry.target;
-   console.log('Imagen lista para cargar' , image);
    const routeImage = image.dataset.src;
    image.src = routeImage;
    image.classList.add('load')

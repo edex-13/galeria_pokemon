@@ -44,6 +44,16 @@
    transform: translateY(-20%);
    transition: transform 0.4s;
 }
+.btn__clean{
+   margin: 20px;
+   padding: 8px;
+   border:none;
+   background-color: #ff1c1c;
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+
+}
 button:active {
    border: 3px solid #000;
 }
@@ -53,6 +63,7 @@ button:active {
 }
 .imagePokemon {
    width: 320px;
+   min-height: 420px;
    display: block;
    margin-left: auto;
    margin-right: auto;
